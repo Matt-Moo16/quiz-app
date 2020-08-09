@@ -1,3 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Special+Elite&display=swap');
+
 body {
+    color: whitesmoke;
+    /*background-color: black; */
+    background-color: black;
     text-align: center;
+    margin: 25px;
+    
 }
+
+main {
+    font-family:'Special Elite', cursive;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    width: 100%;
+    
+    
+}
+
+header {
+    font-family: 'Creepster', cursive;
+    
+}
+h1 {
+    font-size: 55px;
+    color: red;
+    background-color:whitesmoke;
+    border-style: groove;
+    border-width: 6px;
+    border-color: red;
+    border-radius: 10px;
+    
+    
+    
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+    
+}
+
+header img {
+    max-width: 100%;
+    height: auto;   
+}
+
+.score {
+    font-size: 25px;
+}
+
+button {
+    width: 100%;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: red;
+    color: whitesmoke;
+    border-color:whitesmoke;
+    border-width: 2px;
+    margin-top: 25px;
+    padding: 8px 0px 8px 0px;
+    
+    
+}
+
+p {
+    margin: auto;
+    font-size: 20px;
+
+}
+
+.answer-choices {
+    background-color: black;
+    font-size: 20px;
+}
+
+.radio {
+    margin: 5px;
+    padding: 15px;
+}
+
+.punks-img {
+   max-width: 100%;
+    height: auto;
+}
+
+@media all and (min-width: 700px) {
+
+    button {
+        width: 25%;
+    }
+
+    header img {
+        width: 700px;
+    }
+
+    h1 {
+        margin-left: 25%; 
+        margin-right: 25%;
+    }
+
+    .punks-img {
+        width: 400px;
+    }
+
+    .answer-choices {
+        margin-left: 25%; 
+        margin-right: 25%;
+    }
+
+    
+}
+
+
