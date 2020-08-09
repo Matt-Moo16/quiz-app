@@ -468,4 +468,4 @@ function setUpUI() {
     displayStartPage();
 
 }
-$(setUpUI)
+$(setUpUI())
