@@ -299,11 +299,9 @@ function generateQuestionPage(question=getCurrentQuestion(QUIZ)) {
             <h2>${question.text}</h2>
             <form>
                 <ul class="answer-choices js-answers"></ul>
+                <button type="submit" id="js-submit-button">Submit</button>
             </form>
         </div>
-
-        <button type="submit" id="js-submit-button">Submit</button>
-
     </section>
     `); 
     return questionHtml
